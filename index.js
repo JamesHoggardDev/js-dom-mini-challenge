@@ -11,7 +11,7 @@ console.log(newHeader.style.color = 'blue')
 
 /***** Deliverable 3 *****/
 console.log('This is what the traveler object looks like: ', traveler)
-const firstCardImg = document.querySelector('')
+const firstCardImg = document.querySelector('div#profile img')
 
 
 /***** Deliverable 4 *****/
