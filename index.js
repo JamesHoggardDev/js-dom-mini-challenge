@@ -10,8 +10,8 @@ console.log(newHeader.style.color = 'blue')
 
 
 /***** Deliverable 3 *****/
-// console.log('This is what the traveler object looks like: ', traveler)
-
+console.log('This is what the traveler object looks like: ', traveler)
+const firstCardImg = document.querySelector('')
 
 
 /***** Deliverable 4 *****/
