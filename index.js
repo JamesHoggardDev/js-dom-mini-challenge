@@ -10,9 +10,6 @@ header.style.color = 'green'
 /***** Deliverable 3 *****/
 // console.log('This is what the traveler object looks like: ', traveler)
 
-//first assess WHERE on the page are these elements that need to be updated located?
-//then find/update each element individually
-
 const firstProfImg = document.querySelector("#profile > img")
 firstProfImg.src = traveler.photo
 firstProfImg.alt = traveler.name 
@@ -27,7 +24,6 @@ travelerNickname.textContent = traveler.nickname
 
 
 /***** Deliverable 4 *****/
-//take combo approach & start with creating the outermost element
 traveler.animalSightings.forEach(function (animalSightingObj){
      const animalLi = document.createElement('li')
      animalLi.dataset.id = animalSightingObj.id
@@ -40,11 +36,7 @@ traveler.animalSightings.forEach(function (animalSightingObj){
      const AnimalCollectionUl = document.querySelector('ul')
      AnimalCollectionUl.append(animalLi)
 })
-//^^^^remember the the () around animalSightingObj on line 31 are like the || of the
-//do end in a .each in Ruby so you can call each elem in that ARRAY w/e you want
-
 /***** Deliverable 5 *****/
-
 const sightingToRemove = document.querySelector('[data-id="3"]')
 console.log(sightingToRemove)
 sightingToRemove.remove()
